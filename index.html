@@ -1,0 +1,39 @@
+---
+layout: home
+title: Entwicklungsreport 2021
+---
+<div class="mt6">
+    <p class="f4">Editorial</p>
+    <h1 class="measure mt2 mb5 f1-ns"><a href="/trends/00-editorial" class="link black">This is the introduction text. A quote from the editorial describing the project as a whole. It‘s short and on point. It frames the expectation of the reader.</a></h1>
+    <a class="br-pill ba pa3 f5 link black mono hover-bg-yellow" href="/trends/00-editorial">Start Reading →</a>
+    
+    <div class="mt6 mb7 mt7-l bt flex flex-wrap justify-between">
+    <p class="w-100 w-25-ns mt2 f4">Alle Trends</p>
+        <div class="w-100 w-75-ns flex-columm mb4 justify-between " id="trend-container">
+            {% for article in site.trends %}
+            <a href="{{ article.url }}" class="link black dimn pl2 pr2 pt3 pb3 w-100 items-start flex trend-element bb hover-bg-yellow">
+                <div class="br-100 pa3-ns pa1 w3-ns h3-ns w2 h2 mr2 bg-yellow mr3">
+                    <img src="{{ article.teaser-img }}">
+                </div>
+                <h3 class="w-40 mb1 mr2 mt0 f4 f3-ns">{{ article.title }}</h3>
+                <p class="w-50 lh-copy mt0 f5-ns f6 normal">{{ article.subtitle }}</p>
+            </a>
+            {% endfor %}
+        </div>
+    </div>
+
+    <!--<p class="mt6 mt7-l bt pt2">Trends</p>
+    <div class="flex flex-wrap mb4 justify-between" id="trend-container">
+        {% for article in site.trends %}
+        <div class="pr3 pt3 pb3 w-30-ns w-50 trend-element">
+            <a href="{{ article.url }}" class="link black">
+                <div class="br-100 pa3-ns pa1 w4 h4 bg-yellow">
+                    <img src="{{ article.teaser-img }}">
+                </div>
+                <h3 class="mb1 f3">{{ article.title }}</h3>
+                <p class="lh-copy f5 normal">{{ article.subtitle }}</p>
+            </a>
+        </div>
+        {% endfor %}
+    </div>-->
+</div>
