@@ -11,9 +11,9 @@ title: Entwicklungsreport 2021
     <p class="w-100 w-25-ns mt2 f4">Alle Trends</p>
         <div class="w-100 w-75-ns flex-columm mb4 justify-between " id="trend-container">
             {% for article in site.trends %}
-            <a href="{{ article.url }}" class="link black dimn pl2 pr2 pt3 pb3 w-100 items-start flex trend-element bb hover-bg-yellow">
+            <a href="{{site.url}}/{{ article.url }}" class="link black dimn pl2 pr2 pt3 pb3 w-100 items-start flex trend-element bb hover-bg-yellow">
                 <div class="br-100 pa3-ns pa1 w3-ns h3-ns w2 h2 mr2 bg-yellow mr3">
-                    <img src="{{ article.teaser-img }}">
+                    <img src="{{site.url}}/{{ article.teaser-img }}">
                 </div>
                 <h3 class="w-40 mb1 mr2 mt0 f4 f3-ns">{{ article.title }}</h3>
                 <p class="w-50 lh-copy mt0 f5-ns f6 normal">{{ article.subtitle }}</p>

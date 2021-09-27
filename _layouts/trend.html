@@ -22,7 +22,7 @@ layout: default
         {% for article in site.trends %}
             {% if article.title == page.title %}
             <div class="pa3 bb ma0 bg-yellow">
-                <a href="{{ article.url }}" class="link black">
+                <a href="{{site.url}}/{{ article.url }}" class="link black">
                     <p class="mb1 f4">{{ article.title }}</p>
                 </a>
             </div>
@@ -30,7 +30,7 @@ layout: default
             {% else %}
 
             <div class="pa3 bb ma0 hover-bg-yellow">
-                <a href="{{ article.url }}" class="link black">
+                <a href="{{site.url}}/{{ article.url }}" class="link black">
                     <p class="mb1 f4">{{ article.title }}</p>
                 </a>
             </div>
