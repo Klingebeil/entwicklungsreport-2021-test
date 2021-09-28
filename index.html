@@ -15,8 +15,10 @@ title: Entwicklungsreport 2021
                 <div class="br-100 pa3-ns pa1 w3-ns h3-ns w2 h2 mr2 bg-yellow mr3">
                     <img src="{{site.url}}/img/{{ article.teaser-img }}">
                 </div>
-                <h3 class="w-40 mb1 mr2 mt0 f4 f3-ns">{{ article.title }}</h3>
-                <p class="w-50 lh-copy mt0 f5-ns f6 normal">{{ article.subtitle }}</p>
+                <div class="ma0 pa0 flex-ns flex-wrap w-100">
+                    <h3 class="w-40-ns w-100 mb1 mr2 mt0 f4 f3-ns">{{ article.title }}</h3>
+                    <p class="w-50-ns w-90 lh-copy mt0 f5-ns f6 normal">{{ article.subtitle }}</p>
+                </div>
             </a>
             {% endfor %}
         </div>
