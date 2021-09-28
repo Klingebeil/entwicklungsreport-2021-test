@@ -18,12 +18,12 @@ layout: default
         <div class="bt">{% include next-previous-article.html %}</div>
     </div>
     <div class="w-30-ns w-100 pb7 bl-ns bt">
-        <p class="pa2 pl3 pb3 f4 bb">Inhaltsverzeichnis</p>
+        <p class="pa2 pl3 pb3 f4-ns f5 bb">Inhaltsverzeichnis</p>
         {% for article in site.trends %}
             {% if article.title == page.title %}
             <div class="pa3 bb ma0 bg-yellow">
                 <a href="{{site.url}}/{{ article.url }}" class="link black">
-                    <p class="mb1 f4">{{ article.title }}</p>
+                    <p class="pa0 ma0 f4-ns f5">{{ article.title }}</p>
                 </a>
             </div>
             
@@ -31,7 +31,7 @@ layout: default
 
             <div class="pa3 bb ma0 hover-bg-yellow">
                 <a href="{{site.url}}/{{ article.url }}" class="link black">
-                    <p class="mb1 f4">{{ article.title }}</p>
+                    <p class="pa0 ma0 f4-ns f5">{{ article.title }}</p>
                 </a>
             </div>
             {% endif %}
