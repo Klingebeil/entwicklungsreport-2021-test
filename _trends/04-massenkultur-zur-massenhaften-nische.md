@@ -22,7 +22,7 @@ Die QAnon Verschwörungsbewegung ist eines der besten Beispiele für diese Dynam
 
 QAnon ist viel mehr digitales Improvisationstheater. Verschiedenste Gruppierungen, Influencer und Medienkanäle verbinden in Echtzeit oft unzusammenhängende Ideen in ein weltumspannendes Verschwörungskonstrukt—und beziehen sich dabei nicht selten auch auf harte journalistische Quellen. Es gibt nicht die eine Webseite oder den einen Podcast, den es aufzurufen gilt, um Teil von QAnon zu werden, stattdessen ist die Bewegung fraktal verteilt über soziale Medien, Messenger-Gruppen, Youtube-Kanäle und klassischen Foren. Es existieren die unterschiedlichsten Gruppierungen mit jeweils eigenen Memes, Ideen, Theorien und Geschichten.
 
-Anhänger der Bewegung wollen diese verschiedenen Stränge nicht auflösen. Logik spielt hier kaum eine Rolle, stattdessen suchen sie die Erlaubnis sich so fühlen zu dürfen, wie sie es tun. QAnon liefert letztendlich nur das narrative Fundament um rebellisch wütend auf imaginäre Feinde zu sein, während die Bewegung  gleichzeitig als Community für diese Menschen fungiert. Wahrheit ist hier zweitrangig.
+Anhänger der Bewegung wollen diese verschiedenen Stränge nicht auflösen. Logik spielt hier kaum eine Rolle, stattdessen suchen sie die Erlaubnis sich so fühlen zu dürfen, wie sie es tun. QAnon liefert letztendlich nur das narrative Fundament um rebellisch wütend auf imaginäre Feinde zu sein, während die Bewegung gleichzeitig als Community für diese Menschen fungiert. Wahrheit ist hier zweitrangig.
 
 ## Welche Fragen stellt sich für uns?
 
